@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "SMALLDOUBLEBLACK"
+  s.name         = "smallDoubleBlack"
   s.version      = "0.0.1"
-  s.summary      = "A short description of SMALLDOUBLEBLACK."
+  s.summary      = "A short description of smallDoubleBlack."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-			A short description of SMALLDOUBLEBLACK
+			A short description of smallDoubleBlack
                    DESC
 
   s.homepage     = "https://github.com/zy6915321/pushPod.git"
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SMALLDOUBLEBLACK"
-  # s.exclude_files = "SMALLDOUBLEBLACK/Exclude"
+  s.source_files  = "smallDoubleBlack"
+  # s.exclude_files = "smallDoubleBlack/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
