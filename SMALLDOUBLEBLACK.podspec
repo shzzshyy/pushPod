@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint SMALLDOUBLEBLACK.podspec' to ensure this is a
+#  Be sure to run `pod spec lint smallDoubleBlack.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-			A short description of smallDoubleBlack
+			书写测试库
                    DESC
 
   s.homepage     = "https://github.com/zy6915321/pushPod.git"
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -93,7 +93,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "smallDoubleBlack"
   # s.exclude_files = "smallDoubleBlack/Exclude"
-
   # s.public_header_files = "Classes/**/*.h"
 
 
@@ -117,7 +116,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = "UIKit/UIKit"
+  s.framework  = "Foundation"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"

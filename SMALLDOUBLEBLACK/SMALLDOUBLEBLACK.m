@@ -1,14 +1,14 @@
 //
-//  SMALLDOUBLEBLACK.m
+//  smallDoubleBlack.m
 //   
 //
 //  Created by Slark on 2018/7/26.
 //  Copyright © 2018年 Slark. All rights reserved.
 //
 
-#import "SMALLDOUBLEBLACK.h"
+#import "smallDoubleBlack.h"
 
-@implementation SMALLDOUBLEBLACK
+@implementation smallDoubleBlack
 +(NSString*)getCurrentTimeWithFormat:(NSString *)format{
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];

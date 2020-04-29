@@ -1,5 +1,5 @@
 //
-//  SMALLDOUBLEBLACK.h
+//  smallDoubleBlack.h
 //
 //
 //  Created by Slark on 2018/7/26.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SMALLDOUBLEBLACK : NSObject
+@interface smallDoubleBlack : NSObject
 /** 传入一个u时间戳
  *  返回一个距离当前时间的值
  *  
